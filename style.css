@@ -43,7 +43,7 @@ h1 {
 h1 {
 font-size:xx-large; 
 font-family: cursive;
-font-style: inherit;
+font-style: italic;
 color: rgb(241, 241, 241);
 }
 
@@ -101,6 +101,7 @@ position: absolute;
   margin-top: 10ch;
   margin-right: 3ch;
  padding-bottom: 1ch;
+  padding-top: 1ch;
  color:rgb(241, 241, 234);
   background:rgb(65, 60, 60);
   opacity: 1.9;
@@ -109,7 +110,7 @@ position: absolute;
   font-size: x-large;
 
   border: 5px solid rgb(0, 0, 0);
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
   box-shadow: 1px 2px 3px 4px rgba(77, 56, 77, 0.4);
   border-radius: 100px;
   position: fixed;
@@ -122,12 +123,13 @@ position: absolute;
   margin-top: 15ch;
   margin-right: 5cm;
   padding-right: 3cm;
+  padding-top: 1ch;
   padding-bottom: 1ch;
   padding-left: 4%;
   text-align: right;
   font-size: x-large;
   border: 5px solid rgb(0, 0, 0);
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
   box-shadow: 1px 2px 3px 4px rgba(77, 56, 77, 0.4);
   border-radius: 100px;
   position: fixed;
@@ -135,6 +137,6 @@ position: absolute;
 }
 ion-icon {
   font-size: 64px;
-  color: rgb(236, 222, 222);
+  color: rgb(164, 6, 255);
 
 }
