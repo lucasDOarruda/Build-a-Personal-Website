@@ -37,19 +37,6 @@ background: rgb(32, 34, 39);
 text-align: center;
 }
 
-p {
-display: flexbox;
-border: 10px solid rgb(14, 15, 15);
-padding: 80px;
-text-align: center;
-color:rgb(241, 241, 234);
-background-color: rgb(3, 3, 3);
-font-size: x-large;
-font-weight: 1000;
-font-style: italic;
-border-radius: 50px;
-box-shadow: rgba(46, 29, 40, 0.4) -5px 5px, rgba(31, 22, 27, 0.3) -10px 10px, rgba(36, 19, 30, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
-opacity: 0.5;
 
 
 }
@@ -87,11 +74,45 @@ padding-right: 1000px;
 
 }
 
-p {
-height:300px;
-width: 10%;
-background-color:#000000;
+.frame {
+height:250px;
+width: 40%;
 text-align: center;
+margin-left: 28%;
+position: static;
+
+  
+  border: 10px solid rgb(14, 15, 15);
+  padding: 80px;
+  text-align: center;
+  color:rgb(241, 241, 234);
+  background-color: rgb(3, 3, 3);
+  font-size: x-large;
+  font-weight: 1000;
+  font-style: italic;
+  border-radius: 50px;
+  box-shadow: rgba(46, 29, 40, 0.4) -5px 5px, rgba(31, 22, 27, 0.3) -10px 10px, rgba(36, 19, 30, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+  opacity: 0.8;
+  
 
 }
 
+.relative {
+
+  margin-top: 5px;
+  border: 10px solid rgb(14, 15, 15);
+  margin-top: 1px;
+  border-radius: 50px;
+  padding-top: 10px;
+  width: 60mm;
+  text-align: center;
+}
+
+.absolute {
+  margin-top: 20px;
+  border: 10px solid rgb(14, 15, 15);
+  border-radius: 50px;
+  padding-top: 10px;
+  width: 60mm;
+  text-align: center;
+}
