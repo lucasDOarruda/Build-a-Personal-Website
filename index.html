@@ -17,8 +17,6 @@
  <link rel="stylesheet" href="style.css">
  <h1>Lucas Arruda</h1>
 
- 
-
  <div class="frame">
   <div>"A new Journey , new challenges and this page shows the beginning of a long Journey, stay close by... "</div>
   <p>bio</p>
@@ -27,13 +25,35 @@
   <a href="https://github.com/lucasDOarruda" target="blank">
     <ion-icon name="logo-github"></ion-icon>
   </a>
-  
+   
 
-
+  <div class="container">
+    <form action="action_page.php">
   
+      <label for="fname">First Name</label>
+      <input type="text" id="fname" name="firstname" placeholder="Your name..">
   
-
+      <label for="lname">Last Name</label>
+      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+  
+      <label for="country">Country</label>
+      <select id="country" name="country">
+        <option value="australia">Australia</option>
+        <option value="canada">Canada</option>
+        <option value="usa">USA</option>
+      </select>
+  
+      <label for="subject">Subject</label>
+      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+  
+      <input type="submit" value="Submit">
+  
+    </form>
   </div>
+
+
+
+</div>
 
 <div class="boxed">
 Social 
@@ -43,7 +63,11 @@ Social
   </div>
   
 </div>
+
+
+
 <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-  </body>
+  
+</body>
 </html>
