@@ -1,15 +1,22 @@
 
 
-body {
+html, body {
   background: rgb(39, 43, 43);
-  
+  position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
 }
+
 
 
 body {
   font-size: 15px;
   border-color: rgb(240, 238, 238);
   background-origin: padding-box;
+  min-width: 50ch;
+
 }
 
 h1 {
@@ -18,7 +25,7 @@ h1 {
   margin-right: 200px;
   margin-top: 50px;
   margin-left: -50px;
-  background:rgb(95, 87, 87);
+  background:rgb(58, 53, 53);
   opacity: 1.9;
   text-align: center;
   border: 5px solid rgb(0, 0, 0);
@@ -40,9 +47,6 @@ font-style: inherit;
 color: rgb(241, 241, 241);
 }
 
-.p3 {
-font-family: "Lucida Console", "Courier New", monospace;
-}
 
 body {
 font-family: Copperplate, Papyrus, fantasy;
@@ -56,13 +60,15 @@ img {
 width: 600px;
 padding-right: 1000px;
 
+
+
 }
 
 .frame {
 height:250px;
 width: 40%;
 text-align: center;
-margin-left: 35%;
+margin-left: 28%;
 margin-top: 10ch;
 position: absolute;
 
@@ -76,7 +82,7 @@ position: absolute;
   font-weight: 1000;
   font-style: italic;
   border-radius: 50px;
-  box-shadow: rgba(46, 29, 40, 0.4) -5px 5px, rgba(31, 22, 27, 0.3) -10px 10px, rgba(36, 19, 30, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+  box-shadow: rgba(46, 29, 40, 0.4) -5px 5px, rgba(31, 22, 27, 0.3) -10px 10px, rgba(36, 19, 30, 0.2) -15px 120px5px, rgba(240, 46, 170, 0.1) -20px , rgba(240, 46, 170, 0.05) -25px 25px;
   opacity: 0.8;
   
 
@@ -96,7 +102,7 @@ position: absolute;
   margin-right: 3ch;
  padding-bottom: 1ch;
  color:rgb(241, 241, 234);
-  background:rgb(95, 87, 87);
+  background:rgb(65, 60, 60);
   opacity: 1.9;
   text-align: center;
   text-transform: uppercase;
@@ -111,7 +117,7 @@ position: absolute;
 
 .boxed1 {
   width: 4cm;
-  background:rgb(95, 87, 87);
+  background:rgb(53, 52, 52);
   color:rgb(241, 241, 234);
   margin-top: 15ch;
   margin-right: 5cm;
@@ -125,5 +131,10 @@ position: absolute;
   box-shadow: 1px 2px 3px 4px rgba(77, 56, 77, 0.4);
   border-radius: 100px;
   position: fixed;
+
+}
+ion-icon {
+  font-size: 64px;
+  color: rgb(236, 222, 222);
 
 }
